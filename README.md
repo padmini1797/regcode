@@ -23,5 +23,16 @@
     value="GET A CALL">
     </form>
     </div>
+    <script>
+        function onbook(event){
+            event.preventDefault();
+            console.log('Name:',event.target.name.value)
+            console.log('Email:',event.target.mail.value)
+            console.log('Phone:',event.target.phone.value)
+            console.log('Date:',event.target.calltime.value)
+            console.log('Time:',event.target.tim.value)
+        }
+
+    </script>
 </body>
 </html>
